@@ -21,19 +21,13 @@ public class UserServiceImpl implements UserService {
 	
 	private static final String USER_ROLE = "ROLE_USER";
 	
-//	@Autowired
-//	public UserServiceImpl(UserRepository userRepository, RoleRepository roleRepository, PasswordEncoder passwordEncoder) {
-//		this.userRepository = userRepository;
-//		this.roleRepository = roleRepository;
-//		this.passwordEncoder = passwordEncoder;
-//	}
-	
 	@Autowired
 	public UserServiceImpl(UserRepository userRepository, RoleRepository roleRepository) {
+//	public UserServiceImpl(UserRepository userRepository, RoleRepository roleRepository, PasswordEncoder passwordEncoder) {
 		this.userRepository = userRepository;
 		this.roleRepository = roleRepository;
+//		this.passwordEncoder = passwordEncoder;
 	}
-	
 	
 	@Override
 	public Optional<User> findByUsername(String username){

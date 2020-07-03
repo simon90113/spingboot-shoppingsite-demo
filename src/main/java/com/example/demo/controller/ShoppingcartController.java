@@ -31,17 +31,17 @@ public class ShoppingcartController {
 		return modelAndView;
 	}
 	
-	@GetMapping("/shoppingcart/addProduct/{productId}")
-	public ModelAndView addProductToCart(@PathVariable("productId") Long productId) {
-		productService.findById(productId).ifPresent(shoppingcartService::addProduct);
-		return shoppingcart();
-	}
-	
-	@GetMapping("/shoppingcart/addProduct/{productId}")
-	public ModelAndView removeProductFromCart(@PathVariable("productId") Long productId) {
-		productService.findById(productId).ifPresent(shoppingcartService::removeProduct);
-		return shoppingcart();
-	}
+//	@GetMapping("/shoppingcart/addProduct/{productId}")
+//	public ModelAndView addProductToCart(@PathVariable("productId") Long productId) {
+//		productService.findById(productId).ifPresent(shoppingcartService::addProduct);
+//		return shoppingcart();
+//	}
+//	
+//	@GetMapping("/shoppingcart/addProduct/{productId}")
+//	public ModelAndView removeProductFromCart(@PathVariable("productId") Long productId) {
+//		productService.findById(productId).ifPresent(shoppingcartService::removeProduct);
+//		return shoppingcart();
+//	}
 	
 	@GetMapping("/shoppingcart/checkout")
 	public ModelAndView checkout() {

@@ -80,7 +80,6 @@ public class ShoppingcartServiceImpl implements ShoppingcartService {
 		productRepository.saveAll(products.keySet());
 		productRepository.flush();
 		products.clear();		
-	
 	}
 	
 	@Override
