@@ -39,7 +39,7 @@ public class ShoppingcartController {
 	}
 	
 //	DeleteMapping? GetMapping? THE SAME?
-	@DeleteMapping("/shoppingcart/addProduct/{productId}")
+	@GetMapping("/shoppingcart/removeProduct/{productId}")
 	public ModelAndView removeProductFromCart(@PathVariable("productId") Long productId) {
 		productService.findById(productId).ifPresent(shoppingcartService::removeProduct);
 		return shoppingcart();
