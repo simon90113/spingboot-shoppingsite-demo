@@ -12,7 +12,7 @@ public class Pager {
 		this.products = products;
 	}
 
-	public int getPageNumber() {
+	public int getPageIndex() {
 		return products.getNumber() + 1;
 	}
 
@@ -37,6 +37,6 @@ public class Pager {
 	}
 	
 	public boolean indexOutOfBounds() {
-		return this.getPageNumber() < 0 || this.getPageNumber()	> this.getTotalElements();
+		return this.getPageIndex() < 0 || this.getPageIndex()	> this.getTotalElements();
 	}
 }
