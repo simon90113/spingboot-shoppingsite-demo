@@ -7,7 +7,7 @@ import com.example.demo.exception.NotEnoughProductsInStockException;
 import com.example.demo.model.Product;
 
 public interface ShoppingcartService {
-	
+	 
 	void addProduct(Product product);
 	
 	void removeProduct(Product product);

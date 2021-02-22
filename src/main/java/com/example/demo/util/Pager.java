@@ -5,7 +5,7 @@ import org.springframework.data.domain.Page;
 import com.example.demo.model.Product;
 
 public class Pager {
-	
+	 
 	private final Page<Product> products;
 	
 	public Pager(Page<Product> products) {
