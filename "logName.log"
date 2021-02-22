@@ -931,3 +931,389 @@ Action:
 
 Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
 
+2021-02-23 01:06:15.839  WARN 15396 --- [main] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5034 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-02-23 01:06:15.850  INFO 15396 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : Starting SpringShoppingSiteDemoApplication on MacBook-Air.local with PID 15396 (/Users/SimonWu/JustDo/sts/workspace-spring-tool-suite-4-4.6.2.RELEASE/spring-shopping-site-demo/target/classes started by SimonWu in /Users/SimonWu/JustDo/sts/workspace-spring-tool-suite-4-4.6.2.RELEASE/spring-shopping-site-demo)
+2021-02-23 01:06:15.852  INFO 15396 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : No active profile set, falling back to default profiles: default
+2021-02-23 01:06:16.997  INFO 15396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-23 01:06:17.133  INFO 15396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118ms. Found 3 JPA repository interfaces.
+2021-02-23 01:06:18.316  INFO 15396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-23 01:06:18.332  INFO 15396 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-23 01:06:18.332  INFO 15396 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-02-23 01:06:18.489  INFO 15396 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-23 01:06:18.490  INFO 15396 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2577 ms
+2021-02-23 01:06:18.837  INFO 15396 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-23 01:06:19.359  INFO 15396 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-23 01:06:19.433  INFO 15396 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-23 01:06:19.535  INFO 15396 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2021-02-23 01:06:19.847  INFO 15396 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-23 01:06:20.096  INFO 15396 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-23 01:06:21.458  INFO 15396 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-23 01:06:21.474  INFO 15396 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-23 01:06:22.427  WARN 15396 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-23 01:06:22.653  INFO 15396 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 01:06:23.357  INFO 15396 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54d323ad, org.springframework.security.web.context.SecurityContextPersistenceFilter@1731996f, org.springframework.security.web.header.HeaderWriterFilter@79a2fbae, org.springframework.security.web.csrf.CsrfFilter@a716ec6f, org.springframework.security.web.authentication.logout.LogoutFilter@69489e38, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@eb9c8446, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@c2dadd01, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@9b8482c4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@8887f69f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b577aa4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9c04d8c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@989a94c4, org.springframework.security.web.session.SessionManagementFilter@4e347f5, org.springframework.security.web.access.ExceptionTranslationFilter@8788d583, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5634f079]
+2021-02-23 01:06:23.514  INFO 15396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-23 01:06:23.517  INFO 15396 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : Started SpringShoppingSiteDemoApplication in 13.515 seconds (JVM running for 13.955)
+2021-02-23 01:07:15.599  INFO 15396 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 01:07:15.603  INFO 15396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-23 01:07:15.628  INFO 15396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+2021-02-23 01:07:20.919  WARN 15396 --- [http-nio-8080-exec-5] o.s.s.c.bcrypt.BCryptPasswordEncoder     : Encoded password does not look like BCrypt
+2021-02-23 01:07:55.781  WARN 15396 --- [http-nio-8080-exec-7] o.s.s.c.bcrypt.BCryptPasswordEncoder     : Encoded password does not look like BCrypt
+2021-02-23 01:08:08.341  INFO 15396 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-23 01:08:08.346  INFO 15396 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-23 01:08:08.352  INFO 15396 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-23 01:08:08.368  INFO 15396 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-02-23 01:08:26.987  WARN 15552 --- [main] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5025 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-02-23 01:08:26.993  INFO 15552 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : Starting SpringShoppingSiteDemoApplication on MacBook-Air.local with PID 15552 (/Users/SimonWu/JustDo/sts/workspace-spring-tool-suite-4-4.6.2.RELEASE/spring-shopping-site-demo/target/classes started by SimonWu in /Users/SimonWu/JustDo/sts/workspace-spring-tool-suite-4-4.6.2.RELEASE/spring-shopping-site-demo)
+2021-02-23 01:08:26.994  INFO 15552 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : No active profile set, falling back to default profiles: default
+2021-02-23 01:08:28.449  INFO 15552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-23 01:08:28.620  INFO 15552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 157ms. Found 3 JPA repository interfaces.
+2021-02-23 01:08:30.130  INFO 15552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-23 01:08:30.150  INFO 15552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-23 01:08:30.152  INFO 15552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-02-23 01:08:30.329  INFO 15552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-23 01:08:30.330  INFO 15552 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3282 ms
+2021-02-23 01:08:30.719  INFO 15552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-23 01:08:31.554  INFO 15552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-23 01:08:31.761  INFO 15552 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-23 01:08:31.913  INFO 15552 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2021-02-23 01:08:32.216  INFO 15552 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-23 01:08:32.415  INFO 15552 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-23 01:08:33.647  INFO 15552 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-23 01:08:33.659  INFO 15552 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-23 01:08:34.545  WARN 15552 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-23 01:08:34.796  INFO 15552 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 01:08:35.371  INFO 15552 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d8d1be20-f938-412d-89f5-da5758b6b956
+
+2021-02-23 01:08:35.588  INFO 15552 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@87892fae, org.springframework.security.web.context.SecurityContextPersistenceFilter@d3f44f0d, org.springframework.security.web.header.HeaderWriterFilter@b342eb92, org.springframework.security.web.csrf.CsrfFilter@532a4d95, org.springframework.security.web.authentication.logout.LogoutFilter@d9d9d86f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1e4ff48c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@641b7282, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@b65f5cd5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@a79426b5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c4b730ad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a2b4ec5b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a2edf487, org.springframework.security.web.session.SessionManagementFilter@f0095483, org.springframework.security.web.access.ExceptionTranslationFilter@562adb87, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37f4e43c]
+2021-02-23 01:08:35.800  INFO 15552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-23 01:08:35.803  INFO 15552 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : Started SpringShoppingSiteDemoApplication in 14.412 seconds (JVM running for 14.902)
+2021-02-23 01:08:45.878  INFO 15552 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 01:08:45.879  INFO 15552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-23 01:08:45.889  INFO 15552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-02-23 01:08:51.316  WARN 15552 --- [http-nio-8080-exec-2] o.s.s.c.bcrypt.BCryptPasswordEncoder     : Encoded password does not look like BCrypt
+2021-02-23 01:09:18.681  INFO 15552 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-23 01:09:18.691  INFO 15552 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-23 01:09:18.699  INFO 15552 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-23 01:09:18.721  INFO 15552 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-02-23 01:16:41.413  WARN 15690 --- [main] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5029 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-02-23 01:16:41.421  INFO 15690 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : Starting SpringShoppingSiteDemoApplication on MacBook-Air.local with PID 15690 (/Users/SimonWu/JustDo/sts/workspace-spring-tool-suite-4-4.6.2.RELEASE/spring-shopping-site-demo/target/classes started by SimonWu in /Users/SimonWu/JustDo/sts/workspace-spring-tool-suite-4-4.6.2.RELEASE/spring-shopping-site-demo)
+2021-02-23 01:16:41.426  INFO 15690 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : No active profile set, falling back to default profiles: default
+2021-02-23 01:16:42.746  INFO 15690 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-23 01:16:42.939  INFO 15690 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 174ms. Found 3 JPA repository interfaces.
+2021-02-23 01:16:45.138  INFO 15690 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-23 01:16:45.160  INFO 15690 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-23 01:16:45.161  INFO 15690 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-02-23 01:16:45.375  INFO 15690 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-23 01:16:45.378  INFO 15690 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3861 ms
+2021-02-23 01:16:45.797  INFO 15690 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-23 01:16:45.882  INFO 15690 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2021-02-23 01:16:46.077  INFO 15690 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-23 01:16:46.253  INFO 15690 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-23 01:16:46.801  INFO 15690 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-23 01:16:46.824  WARN 15690 --- [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : Unable to resolve name [org.hibernate.dialect.MySQL8Dialect ] as strategy [org.hibernate.dialect.Dialect]
+2021-02-23 01:16:46.832  WARN 15690 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2021-02-23 01:16:46.833  INFO 15690 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-23 01:16:46.849  INFO 15690 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-02-23 01:16:46.853  INFO 15690 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-02-23 01:16:46.892  INFO 15690 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-23 01:16:46.904 ERROR 15690 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$231/0000000000000000.getObject(Unknown Source) ~[na:na]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at com.example.demo.SpringShoppingSiteDemoApplication.main(SpringShoppingSiteDemoApplication.java:13) ~[classes/:na]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 17 common frames omitted
+Caused by: org.hibernate.boot.registry.selector.spi.StrategySelectionException: Unable to resolve name [org.hibernate.dialect.MySQL8Dialect ] as strategy [org.hibernate.dialect.Dialect]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:156) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:239) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveDefaultableStrategy(StrategySelectorImpl.java:183) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveDefaultableStrategy(StrategySelectorImpl.java:170) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:164) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect(DialectFactoryImpl.java:74) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:51) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	... 34 common frames omitted
+Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.hibernate.dialect.MySQL8Dialect ]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:133) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:152) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	... 44 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.hibernate.dialect.MySQL8Dialect 
+	at java.base/java.lang.Class.forNameImpl(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:412) ~[na:na]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:130) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	... 45 common frames omitted
+
+2021-02-23 01:21:28.139  WARN 15838 --- [main] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5027 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-02-23 01:21:28.146  INFO 15838 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : Starting SpringShoppingSiteDemoApplication on MacBook-Air.local with PID 15838 (/Users/SimonWu/JustDo/sts/workspace-spring-tool-suite-4-4.6.2.RELEASE/spring-shopping-site-demo/target/classes started by SimonWu in /Users/SimonWu/JustDo/sts/workspace-spring-tool-suite-4-4.6.2.RELEASE/spring-shopping-site-demo)
+2021-02-23 01:21:28.148  INFO 15838 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : No active profile set, falling back to default profiles: default
+2021-02-23 01:21:29.431  INFO 15838 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-23 01:21:29.617  INFO 15838 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 168ms. Found 3 JPA repository interfaces.
+2021-02-23 01:21:31.140  INFO 15838 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-23 01:21:31.161  INFO 15838 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-23 01:21:31.162  INFO 15838 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-02-23 01:21:31.343  INFO 15838 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-23 01:21:31.344  INFO 15838 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3122 ms
+2021-02-23 01:21:31.718  INFO 15838 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-23 01:21:31.811  INFO 15838 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2021-02-23 01:21:32.060  INFO 15838 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-23 01:21:32.237  INFO 15838 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-23 01:21:32.884  INFO 15838 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-23 01:21:32.897  WARN 15838 --- [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : Unable to resolve name [org.hibernate.dialect.MySQL8Dialect ] as strategy [org.hibernate.dialect.Dialect]
+2021-02-23 01:21:32.902  WARN 15838 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2021-02-23 01:21:32.902  INFO 15838 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-23 01:21:32.908  INFO 15838 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-02-23 01:21:32.912  INFO 15838 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-02-23 01:21:32.937  INFO 15838 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-23 01:21:32.954 ERROR 15838 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$231/0000000000000000.getObject(Unknown Source) ~[na:na]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at com.example.demo.SpringShoppingSiteDemoApplication.main(SpringShoppingSiteDemoApplication.java:13) ~[classes/:na]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 17 common frames omitted
+Caused by: org.hibernate.boot.registry.selector.spi.StrategySelectionException: Unable to resolve name [org.hibernate.dialect.MySQL8Dialect ] as strategy [org.hibernate.dialect.Dialect]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:156) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:239) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveDefaultableStrategy(StrategySelectorImpl.java:183) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveDefaultableStrategy(StrategySelectorImpl.java:170) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:164) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect(DialectFactoryImpl.java:74) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:51) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	... 34 common frames omitted
+Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.hibernate.dialect.MySQL8Dialect ]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:133) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:152) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	... 44 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.hibernate.dialect.MySQL8Dialect 
+	at java.base/java.lang.Class.forNameImpl(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:412) ~[na:na]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:130) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	... 45 common frames omitted
+
+2021-02-23 01:22:26.876  WARN 15841 --- [main] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5027 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-02-23 01:22:26.885  INFO 15841 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : Starting SpringShoppingSiteDemoApplication on MacBook-Air.local with PID 15841 (/Users/SimonWu/JustDo/sts/workspace-spring-tool-suite-4-4.6.2.RELEASE/spring-shopping-site-demo/target/classes started by SimonWu in /Users/SimonWu/JustDo/sts/workspace-spring-tool-suite-4-4.6.2.RELEASE/spring-shopping-site-demo)
+2021-02-23 01:22:26.886  INFO 15841 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : No active profile set, falling back to default profiles: default
+2021-02-23 01:22:28.036  INFO 15841 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-23 01:22:28.163  INFO 15841 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 115ms. Found 3 JPA repository interfaces.
+2021-02-23 01:22:29.365  INFO 15841 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-23 01:22:29.393  INFO 15841 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-23 01:22:29.393  INFO 15841 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-02-23 01:22:29.580  INFO 15841 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-23 01:22:29.581  INFO 15841 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2618 ms
+2021-02-23 01:22:29.932  INFO 15841 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-23 01:22:30.030  INFO 15841 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2021-02-23 01:22:30.211  INFO 15841 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-23 01:22:30.363  INFO 15841 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-23 01:22:30.940  INFO 15841 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-23 01:22:30.953  WARN 15841 --- [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : Unable to resolve name [org.hibernate.dialect.MySQL5Dialect ] as strategy [org.hibernate.dialect.Dialect]
+2021-02-23 01:22:30.958  WARN 15841 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2021-02-23 01:22:30.958  INFO 15841 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-23 01:22:30.964  INFO 15841 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-02-23 01:22:30.967  INFO 15841 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-02-23 01:22:30.992  INFO 15841 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-23 01:22:31.001 ERROR 15841 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$231/0000000000000000.getObject(Unknown Source) ~[na:na]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) ~[spring-boot-2.2.9.BUILD-SNAPSHOT.jar:2.2.9.BUILD-SNAPSHOT]
+	at com.example.demo.SpringShoppingSiteDemoApplication.main(SpringShoppingSiteDemoApplication.java:13) ~[classes/:na]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 17 common frames omitted
+Caused by: org.hibernate.boot.registry.selector.spi.StrategySelectionException: Unable to resolve name [org.hibernate.dialect.MySQL5Dialect ] as strategy [org.hibernate.dialect.Dialect]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:156) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:239) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveDefaultableStrategy(StrategySelectorImpl.java:183) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveDefaultableStrategy(StrategySelectorImpl.java:170) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:164) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect(DialectFactoryImpl.java:74) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:51) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	... 34 common frames omitted
+Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.hibernate.dialect.MySQL5Dialect ]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:133) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:152) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	... 44 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.hibernate.dialect.MySQL5Dialect 
+	at java.base/java.lang.Class.forNameImpl(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:412) ~[na:na]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:130) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	... 45 common frames omitted
+
+2021-02-23 01:22:52.334  WARN 15844 --- [main] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5030 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-02-23 01:22:52.341  INFO 15844 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : Starting SpringShoppingSiteDemoApplication on MacBook-Air.local with PID 15844 (/Users/SimonWu/JustDo/sts/workspace-spring-tool-suite-4-4.6.2.RELEASE/spring-shopping-site-demo/target/classes started by SimonWu in /Users/SimonWu/JustDo/sts/workspace-spring-tool-suite-4-4.6.2.RELEASE/spring-shopping-site-demo)
+2021-02-23 01:22:52.343  INFO 15844 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : No active profile set, falling back to default profiles: default
+2021-02-23 01:22:53.920  INFO 15844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-23 01:22:54.083  INFO 15844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 150ms. Found 3 JPA repository interfaces.
+2021-02-23 01:22:55.554  INFO 15844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-23 01:22:55.571  INFO 15844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-23 01:22:55.571  INFO 15844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-02-23 01:22:55.752  INFO 15844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-23 01:22:55.752  INFO 15844 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3322 ms
+2021-02-23 01:22:56.091  INFO 15844 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-23 01:22:56.164  INFO 15844 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2021-02-23 01:22:56.345  INFO 15844 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-23 01:22:56.475  INFO 15844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-23 01:22:57.020  INFO 15844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-23 01:22:57.039  INFO 15844 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-23 01:22:58.596  INFO 15844 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-23 01:22:58.606  INFO 15844 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-23 01:22:59.642  INFO 15844 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 01:23:00.284  INFO 15844 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cf1016b9, org.springframework.security.web.context.SecurityContextPersistenceFilter@26b25620, org.springframework.security.web.header.HeaderWriterFilter@eb4d2d80, org.springframework.security.web.csrf.CsrfFilter@2c0fce0f, org.springframework.security.web.authentication.logout.LogoutFilter@eed6e4f8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@fc6ae251, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@47a5f3e2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@582daebe, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@a8c5360f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@bdefbdf4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ea89dc4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b296d32, org.springframework.security.web.session.SessionManagementFilter@aabaa731, org.springframework.security.web.access.ExceptionTranslationFilter@23d1e4b0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@136e4641]
+2021-02-23 01:23:00.436  INFO 15844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-23 01:23:00.439  INFO 15844 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : Started SpringShoppingSiteDemoApplication in 13.845 seconds (JVM running for 14.393)
+2021-02-23 01:23:13.337  INFO 15844 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 01:23:13.340  INFO 15844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-23 01:23:13.357  INFO 15844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2021-02-23 01:23:41.508  INFO 15844 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-23 01:23:41.516  INFO 15844 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-23 01:23:41.518  INFO 15844 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-23 01:23:41.531  INFO 15844 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-02-23 01:24:34.023  WARN 15855 --- [main] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5024 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-02-23 01:24:34.029  INFO 15855 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : Starting SpringShoppingSiteDemoApplication on MacBook-Air.local with PID 15855 (/Users/SimonWu/JustDo/sts/workspace-spring-tool-suite-4-4.6.2.RELEASE/spring-shopping-site-demo/target/classes started by SimonWu in /Users/SimonWu/JustDo/sts/workspace-spring-tool-suite-4-4.6.2.RELEASE/spring-shopping-site-demo)
+2021-02-23 01:24:34.031  INFO 15855 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : No active profile set, falling back to default profiles: default
+2021-02-23 01:24:35.494  INFO 15855 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-23 01:24:35.632  INFO 15855 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120ms. Found 3 JPA repository interfaces.
+2021-02-23 01:24:37.085  INFO 15855 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-23 01:24:37.101  INFO 15855 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-23 01:24:37.101  INFO 15855 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-02-23 01:24:37.299  INFO 15855 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-23 01:24:37.300  INFO 15855 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3194 ms
+2021-02-23 01:24:37.683  INFO 15855 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-23 01:24:37.773  INFO 15855 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2021-02-23 01:24:38.036  INFO 15855 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-23 01:24:38.193  INFO 15855 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-23 01:24:38.717  INFO 15855 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-23 01:24:38.746  INFO 15855 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-23 01:24:40.196  INFO 15855 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-23 01:24:40.208  INFO 15855 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-23 01:24:41.225  INFO 15855 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 01:24:41.953  INFO 15855 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b825703d, org.springframework.security.web.context.SecurityContextPersistenceFilter@8db8c244, org.springframework.security.web.header.HeaderWriterFilter@4485783b, org.springframework.security.web.csrf.CsrfFilter@2bf936dd, org.springframework.security.web.authentication.logout.LogoutFilter@d286b0f6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4cf166f6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@ee493140, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4acaa89d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@e61af03e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@dac3c09f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d3e67a0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c1f0bf46, org.springframework.security.web.session.SessionManagementFilter@f98ff92a, org.springframework.security.web.access.ExceptionTranslationFilter@8cdef4ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@811d6ce1]
+2021-02-23 01:24:42.115  INFO 15855 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-23 01:24:42.118  INFO 15855 --- [main] c.e.d.SpringShoppingSiteDemoApplication  : Started SpringShoppingSiteDemoApplication in 13.988 seconds (JVM running for 14.56)
+2021-02-23 01:24:51.561  INFO 15855 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 01:24:51.562  INFO 15855 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-23 01:24:51.579  INFO 15855 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2021-02-23 01:25:16.061  INFO 15855 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-23 01:25:16.068  INFO 15855 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-23 01:25:16.080  INFO 15855 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-23 01:25:16.097  INFO 15855 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
