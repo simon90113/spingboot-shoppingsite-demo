@@ -2,6 +2,7 @@ package com.example.demo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.servlet.ModelAndView;
@@ -31,17 +32,18 @@ public class ShoppingcartController {
 		return modelAndView;
 	}
 	
-//	@GetMapping("/shoppingcart/addProduct/{productId}")
-//	public ModelAndView addProductToCart(@PathVariable("productId") Long productId) {
-//		productService.findById(productId).ifPresent(shoppingcartService::addProduct);
-//		return shoppingcart();
-//	}
-//	
-//	@GetMapping("/shoppingcart/addProduct/{productId}")
-//	public ModelAndView removeProductFromCart(@PathVariable("productId") Long productId) {
-//		productService.findById(productId).ifPresent(shoppingcartService::removeProduct);
-//		return shoppingcart();
-//	}
+	@GetMapping("/shoppingcart/addProduct/{productId}")
+	public ModelAndView addProductToCart(@PathVariable("productId") Long productId) {
+		productService.findById(productId).ifPresent(shoppingcartService::addProduct);
+		return shoppingcart();
+	}
+	
+//	DeleteMapping? GetMapping? THE SAME?
+	@DeleteMapping("/shoppingcart/addProduct/{productId}")
+	public ModelAndView removeProductFromCart(@PathVariable("productId") Long productId) {
+		productService.findById(productId).ifPresent(shoppingcartService::removeProduct);
+		return shoppingcart();
+	}
 	
 	@GetMapping("/shoppingcart/checkout")
 	public ModelAndView checkout() {

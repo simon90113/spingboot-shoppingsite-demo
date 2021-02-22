@@ -17,6 +17,7 @@ import com.example.demo.util.Pager;
 @Controller
 public class HomeController {
 	
+	// Important!!
 	private static final int INITIAL_PAGE = 0;
 	
 	private final ProductService productService;
@@ -31,11 +32,13 @@ public class HomeController {
 		
 // 		Note :
 // 		Evaluate page. If requested parameter is null or less than 0 (to
-// 		prevent exception), return initial size. Otherwise, return value of
+// 		prevent exception), return initial. Otherwise, return value of
 // 		param. Decreased by 1.		
+		
 		int evalPage = (page.orElse(0) < 1) ? INITIAL_PAGE : page.get() - 1; 
 		Page<Product> products = productService.findAllProductsPageable(PageRequest.of(evalPage, 5));
 		Pager pager = new Pager(products);
+		
 		
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.addObject("products", products);

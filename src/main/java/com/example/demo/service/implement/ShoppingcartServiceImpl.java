@@ -19,11 +19,10 @@ import com.example.demo.exception.NotEnoughProductsInStockException;
 import com.example.demo.model.Product;
 import com.example.demo.service.ShoppingcartService;
 
-/**
- * Shopping Cart is implemented with a Map, 
- * 					and " as a session bean " <--------- Important!
- * @author Dusan
- */
+
+ // Shopping Cart is implemented with a Map, 
+ // 					and " as a session bean " <--------- Important!
+ 
 
 @Service
 @Scope(value = WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)
