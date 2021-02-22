@@ -55,7 +55,7 @@ public class RegistrationController {
 			modelAndView.addObject("user", new User());
 			modelAndView.setViewName("/registration");		
 		}
-		return modelAndView;		
+		return modelAndView; 		
 	}
 	
 	
