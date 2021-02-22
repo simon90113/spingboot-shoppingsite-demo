@@ -8,7 +8,7 @@ import org.springframework.data.domain.Pageable;
 import com.example.demo.model.Product;
 
 public interface ProductService {
-
+ 
 	Optional<Product> findById(Long id);
 		
 	Page<Product> findAllProductsPageable(Pageable pageable);
