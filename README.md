@@ -6,7 +6,7 @@ Demo a shopping car prgramming how to run on shopping-site.
 * framworks  
   * Spring-Boot (Spring MVC)
     * Data Jpa (ORM)
-  * thymeleaf
+  * thymeleaf (reference others)
   
 * db  
   * MySQL
