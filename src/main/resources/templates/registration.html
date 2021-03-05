@@ -24,7 +24,7 @@
             <form autocomplete="off" action="#" th:action="@{/registration}"
                   th:object="${user}" method="post" role="form">
 
-<!--            <div class="form-group">
+<!--             <div class="form-group">
                     <label th:if="${#fields.hasErrors('name')}" th:errors="*{name}"
                            class="alert alert-danger"></label>
                     <input type="text" th:field="*{name}" placeholder="Name"
@@ -36,7 +36,7 @@
                            class="alert alert-danger"></label>
                     <input type="text" th:field="*{lastName}" placeholder="Last Name"
                            class="form-control input-lg"/>
-                </div> -->
+                </div> --> 
 
                 <div class="form-group">
                     <label th:if="${#fields.hasErrors('email')}" th:errors="*{email}"
