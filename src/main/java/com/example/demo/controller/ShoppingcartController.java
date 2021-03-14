@@ -35,6 +35,7 @@ public class ShoppingcartController {
 	@GetMapping("/shoppingcart/addProduct/{productId}")
 	public ModelAndView addProductToCart(@PathVariable("productId") Long productId) {
 		productService.findById(productId).ifPresent(shoppingcartService::addProduct);
+//		System.out.println("Log for : add some products");
 		return shoppingcart();
 	}
 	

@@ -19,7 +19,7 @@ import org.hibernate.validator.constraints.Length;
 public class Product {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+//	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "product_id")
 	private Long id;
 	
@@ -71,18 +71,18 @@ public class Product {
 		this.price = unitprice;
 	}
 	
-//	@Override
-//	public boolean equals(Object o) {
-//		if (this == o ) return true;
-//		if (o == null || getClass() != o.getClass()) return false;
-//		
-//		Product product = (Product) o;
-//		
-//		return id.equals(product.id);
-//	}
-//	
-//	@Override 
-//	public int hashCode() {
-//		return id.hashCode();
-//	}
+	@Override
+	public boolean equals(Object o) {
+		if (this == o ) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		
+		Product product = (Product) o;
+		
+		return id.equals(product.id);
+	}
+	
+	@Override 
+	public int hashCode() {
+		return id.hashCode();
+	}
 }

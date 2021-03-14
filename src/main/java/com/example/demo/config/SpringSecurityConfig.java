@@ -13,24 +13,24 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.access.AccessDeniedHandler;
 
-@Configuration
+//@Configuration
 public class SpringSecurityConfig extends WebSecurityConfigurerAdapter{
 
 	private final AccessDeniedHandler accessDeniedHandler;
 	
 	final DataSource dataSource;
 	
-	@Value("${spring.admin.username}")
+	@Value("${spring.security.user.name}")
 	private String adminUsername;
 	
-	@Value("${spring.admin.password}")
+	@Value("${spring.security.user.password}")
 	private String adminPassword;
 	
-	@Value("${spring.queries.users-query")
-	private String usersQuery;
-	
-	@Value("${spring.queries.roles-query")
-	private String rolesQuery;
+//	@Value("${spring.queries.users-query")
+//	private String usersQuery;
+//	
+//	@Value("${spring.queries.roles-query")
+//	private String rolesQuery;
 	
 	@Autowired
 	public SpringSecurityConfig(AccessDeniedHandler accessDeniedHandler, DataSource dataSource) {
@@ -76,8 +76,8 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter{
         // Database authentication
         auth.
                 jdbcAuthentication()
-                .usersByUsernameQuery(usersQuery)
-                .authoritiesByUsernameQuery(rolesQuery)
+//                .usersByUsernameQuery(usersQuery)
+//                .authoritiesByUsernameQuery(rolesQuery)
                 .dataSource(dataSource)
                 .passwordEncoder(passwordEncoder());
 
